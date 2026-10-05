@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+
+# CodeArts 工具目录（会自动重建，不用提交）
+.codeartsdoer/
+
+# 日志
+*.log
+npm-debug.log*
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 环境变量（以后接后端时要忽略密钥等）
+.env
+.env.local
